@@ -1,0 +1,30 @@
+.navigation {
+    text-align: center;
+    background-color: #1f1f1f;
+    color: #fff;
+    padding: 1rem;
+    border-bottom: 5px solid rgb(75, 75, 75);
+
+    a { 
+      color: #fff; 
+      font-weight: 700;
+      margin: 0 1rem;
+    }
+  }
+  
+  .recent__navigation {
+    ul {
+      list-style: none;
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+    }
+    li { 
+  
+      a {
+        color: #fff; 
+        font-weight: 700;
+      }
+   
+    }
+  }

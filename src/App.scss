@@ -1,0 +1,90 @@
+@import './styling//navigation/navigation';
+@import './styling/profile/profile';
+@import './styling/profile/playlist';
+
+.Profile {
+  text-align: center;
+  background-color: rgb(122, 122, 122);
+  color: #fff;
+  padding: 1rem;
+  border-bottom: 5px solid rgb(75, 75, 75)
+}
+
+.Profile h1 {
+  margin: 0;
+}
+
+.profile-div {
+  display: grid;
+  grid-template-rows: 1fr auto auto;
+  grid-template-columns: minmax(auto,15rem);
+
+}
+
+.profile-div img {
+  height: 15rem;
+}
+
+.Recent,
+.Artists {
+  background-color: #1f1f1f
+}
+
+.Recent h1,
+.Artists h1 {
+  text-align: center;
+  margin: 0;
+  padding: 1rem;
+  color: #fff;
+}
+
+.track-list,
+.artist-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.track-cover,
+.artist-cover {
+  height:auto;
+  width: 100%;;
+}
+
+.Track,
+.Artist { 
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #272727;
+  width: calc((100%)/4);
+}
+
+.track-title,
+.artist-title {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0.5rem;
+}
+
+.track-artist {
+  display: inline-block;
+  color: #fff;
+  margin: 0 0.5rem;
+}
+
+.artist-list {
+  padding-bottom: 1rem;
+}
+
+.recent-navigation ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.is-active  {
+  font-weight: 700;
+}

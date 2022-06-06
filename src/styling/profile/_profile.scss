@@ -1,0 +1,10 @@
+.profile {
+    &__playlists {
+        display: flex;
+        flex-direction: row;
+        background-color: rgb(122, 122, 122);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
